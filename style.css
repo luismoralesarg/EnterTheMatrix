@@ -1,0 +1,11 @@
+body{
+	margin:0;
+}
+@font-face {
+	font-family: matrix;
+	src: url(fonts/matrix_code.woff);}
+}
+input[type="text"]{
+	font-family: matrix;
+	font-size:24px;
+}
