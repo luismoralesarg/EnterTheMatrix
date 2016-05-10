@@ -1,10 +1,12 @@
-$(document).ready(function(){
-	var q = $('#q');
+
+$(window).on('load resize', function(){
+	resizeCanvas($('#q'));
+})
+function resizeCanvas(q){
 	q.attr('height',$(window).height())
 	q.attr('width',$(window).width())
-
 	init();
-});
+}
 /**
  * 
  */
